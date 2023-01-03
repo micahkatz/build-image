@@ -1,0 +1,11 @@
+#!/bin/zsh
+
+if [ -z "$1" ]
+then
+    echo "Usage: build-image <version tag>"
+else
+    IMAGE_NAME=${PWD##*/}
+    TAG=$1
+    echo docker build . -t $IMAGE_NAME:$TAG
+    docker build . -t $IMAGE_NAME:$TAG
+fi

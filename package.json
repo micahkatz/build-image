@@ -1,0 +1,26 @@
+{
+    "name": "build-img",
+    "version": "1.0.0",
+    "description": "This is a bash script that serves as a shorthand for building docker images with versions.",
+    "main": "build-img",
+    "scripts": {
+        "test": "./build-img test-version"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/micahkatz/build-img.git"
+    },
+    "keywords": [
+        "docker",
+        "container",
+        "build",
+        "zsh",
+        "script"
+    ],
+    "author": "Micah Katz",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/micahkatz/build-img/issues"
+    },
+    "homepage": "https://github.com/micahkatz/build-img#readme"
+}
